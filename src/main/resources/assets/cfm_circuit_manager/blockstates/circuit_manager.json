@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cfm_circuit_manager:block/circuit_manager"
+    }
+  }
+}

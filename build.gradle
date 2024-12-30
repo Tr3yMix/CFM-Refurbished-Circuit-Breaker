@@ -18,7 +18,12 @@ version = mod_version
 group = mod_group_id
 
 repositories {
-    mavenLocal()
+
+    maven {
+        url 'https://cursemaven.com'
+    }
+
+    mavenCentral()
 }
 
 base {
@@ -127,6 +132,9 @@ dependencies {
 
     // Example mod dependency using a file as dependency
     // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
+
+    implementation "curse.maven:refurbished-furniture-897116:5893840"
+    implementation "curse.maven:framework-549225:5911998"
 
     // Example project dependency using a sister or child project:
     // implementation project(":myproject")
