@@ -1,0 +1,3 @@
+{
+  "parent": "cfm_circuit_breaker:block/circuit_breaker_closed"
+}

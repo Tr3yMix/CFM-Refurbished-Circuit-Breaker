@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "cfm_circuit_manager:block/circuit_manager"
-  }
-}

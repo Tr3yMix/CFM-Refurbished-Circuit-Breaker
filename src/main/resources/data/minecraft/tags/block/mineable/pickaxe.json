@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    "cfm_circuit_breaker:circuit_breaker"
+  ]
+}
